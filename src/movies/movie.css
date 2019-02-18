@@ -1,0 +1,26 @@
+.movie-list-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.movie-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.movie-item .movie-thumbnail {
+  align-self: center;
+}
+
+.movie-item .name {
+  font-weight: 900;
+  text-align: center;
+}
+
+.movie-item .experiences {
+  font-size: 10px;
+  text-align: center;
+}

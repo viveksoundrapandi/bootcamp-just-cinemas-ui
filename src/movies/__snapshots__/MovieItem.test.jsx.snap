@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`show movie item 1`] = `
+<div
+  className="movie-item"
+>
+  <img
+    alt="name"
+    className="movie-thumbnail"
+    src="https://img.spicinemas.in/resources/images/movies/slug/150x207.jpg"
+  />
+  <h5
+    className="name"
+  >
+    name
+  </h5>
+  <p
+    className="experiences"
+  >
+    experiences
+  </p>
+</div>
+`;

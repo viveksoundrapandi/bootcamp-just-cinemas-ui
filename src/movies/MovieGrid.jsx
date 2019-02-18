@@ -1,62 +1,57 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import MovieItem from './MovieItem';
-import { connect } from 'react-redux';
-import fetchMovies from './actions';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import MovieItem from "./MovieItem";
+import "./movie.css";
 
 class MovieGrid extends Component {
-
   componentDidMount() {
-    this.props.fetchMovies()
+    this.props.fetchMovies();
   }
 
   render() {
-    if(this.props.movies.fetching) {
-      return this.showProgress()
+    if (this.props.movies.fetching) {
+      return this.showProgress();
     }
 
-    return this.props.movies.error || false ? this.showError() : this.showMovies();
+    return this.props.movies.error || false
+      ? this.showError()
+      : this.showMovies();
   }
 
   showMovies() {
     return (
-      <div>
-        {this.props.movies.items.map(({ name, slug }) => (
-          <MovieItem key={name} name={name} slug={slug} />
+      <div className="movie-list-container">
+        {this.props.movies.items.map(({ name, slug, experiences }) => (
+          <MovieItem
+            key={name}
+            name={name}
+            slug={slug}
+            experiences={experiences}
+          />
         ))}
       </div>
     );
   }
 
   showProgress() {
-    return (
-      <div>Loading...</div>
-    );
+    return <div>Loading...</div>;
   }
 
   showError() {
-    return (
-      <div>Error...</div>
-    );
+    return <div>Error...</div>;
   }
 }
 
 MovieGrid.defaultProps = {
   movies: {
     items: []
-  },
+  }
 };
 
 MovieGrid.propTypes = {
   movies: PropTypes.shape({
-    items: PropTypes.array,
-  }),
+    items: PropTypes.array
+  })
 };
 
-export default connect(
-  (state) => ({
-    movies: state.movies
-  }), 
-  (dispatch) => ({
-    fetchMovies: () => dispatch(fetchMovies())
-  }))(MovieGrid);
+export default MovieGrid;
