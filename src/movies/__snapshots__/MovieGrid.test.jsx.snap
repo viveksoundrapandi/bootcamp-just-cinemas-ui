@@ -60,7 +60,7 @@ exports[`show movie list when fetching movies 1`] = `
     <img
       alt="Banjo"
       className="movie-thumbnail"
-      src="https://img.spicinemas.in/resources/images/movies/undefined/150x207.jpg"
+      src="https://img.spicinemas.in/resources/images/movies/Sultan/150x207.jpg"
     />
     <h5
       className="name"

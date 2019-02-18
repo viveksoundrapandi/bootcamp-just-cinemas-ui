@@ -30,7 +30,7 @@ it("show movie list when fetching movies", () => {
     fetching: false,
     items: movieItems
   };
-  console.log(movieItems);
+
   const tree = renderer
     .create(<MovieGrid movies={movies} fetchMovies={() => {}} />)
     .toJSON();

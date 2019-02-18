@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => (
-  <div >
+  <div>
     <h1>Just Cinemas</h1>
-  </div >
+  </div>
 );
 
 Header.defaultProps = {};
 
 export default Header;
- 

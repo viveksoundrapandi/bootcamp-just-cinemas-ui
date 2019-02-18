@@ -1,7 +1,7 @@
 import React from "react";
-import MovieGrid from "../movies/MovieGrid";
+import MovieGrid from "../../movies/MovieGrid";
 import { connect } from "react-redux";
-import fetchMovies from "../movies/actions";
+import fetchMovies from "../../movies/actions";
 
 const Home = props => {
   const { movies, fetchMovies } = props;

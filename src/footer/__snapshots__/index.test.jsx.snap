@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`show footer 1`] = `
+<div>
+  <a
+    href="/about-us"
+    onClick={[Function]}
+  >
+    About Us
+  </a>
+  <a
+    href="/terms-and-conditions"
+    onClick={[Function]}
+  >
+    terms and conditions
+  </a>
+</div>
+`;

@@ -11,7 +11,7 @@ export const movieItems = [
     experiences: "RDX, Dolby Atmos, SUB",
     slug: "Sultan"
   },
-  { id: 3, name: "Banjo", experiences: "RDX 3D", listingType: "NOW_SHOWING" },
+  { id: 3, name: "Banjo", experiences: "RDX 3D", slug: "Sultan" },
   {
     id: 4,
     name: "Suicide Squad",
