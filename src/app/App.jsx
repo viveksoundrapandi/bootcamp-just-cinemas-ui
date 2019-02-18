@@ -23,7 +23,7 @@ const Routes = () => (
 );
 
 const Main = () => (
-  <div>
+  <div className="container">
     <Header />
     <Routes />
     <Footer />

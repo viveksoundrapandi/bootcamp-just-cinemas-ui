@@ -1,0 +1,12 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-links {
+  width: auto;
+  margin: 10px;
+  color: #000;
+}

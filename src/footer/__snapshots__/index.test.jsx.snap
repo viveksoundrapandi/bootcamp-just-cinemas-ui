@@ -1,18 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`show footer 1`] = `
-<div>
+<div
+  className="footer-wrapper"
+>
   <a
+    className="footer-links"
     href="/about-us"
     onClick={[Function]}
   >
     About Us
   </a>
   <a
+    className="footer-links"
     href="/terms-and-conditions"
     onClick={[Function]}
   >
-    terms and conditions
+    Terms and conditions
   </a>
 </div>
 `;
