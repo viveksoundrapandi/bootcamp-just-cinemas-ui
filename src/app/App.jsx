@@ -7,6 +7,7 @@ import Header from "../header";
 import Home from "./pages/Home";
 import Footer from "../footer";
 import AboutUs from "./pages/AboutUs";
+import MovieDetail from "./pages/MovieDetail";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import { Switch, Route } from "react-router-dom";
 
@@ -19,6 +20,7 @@ const Routes = () => (
     <Route component={Home} exact path="/" />
     <Route component={AboutUs} path="/about-us" />
     <Route component={TermsAndConditions} path="/terms-and-conditions" />
+    <Route component={MovieDetail} path="/movies/:slug" />
   </Switch>
 );
 

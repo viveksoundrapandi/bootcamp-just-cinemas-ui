@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`show movie detail information 1`] = `
+<div>
+  <h1
+    className="name"
+  >
+    Kabali
+  </h1>
+  <img
+    alt="Kabali"
+    className="banner"
+    src="https://s3.ap-south-1.amazonaws.com/twspicinemas/banner/kabali.jpg"
+  />
+  <div>
+    <h4
+      className="synopsis-label"
+    >
+      SYNOPSIS
+    </h4>
+    <p
+      className="synopsis-content"
+    >
+      Thalaiva's Crime thriller.
+    </p>
+  </div>
+  <div>
+    <h4
+      className="stills-label"
+    >
+      IMAGES
+    </h4>
+    <div
+      className="stills-wrapper"
+    >
+      <img
+        alt="kabali"
+        className="still-item"
+        src="https://s3.ap-south-1.amazonaws.com/twspicinemas/stills/kabali.jpg"
+      />
+      <img
+        alt="kabali"
+        className="still-item"
+        src="https://s3.ap-south-1.amazonaws.com/twspicinemas/stills/kabali.jpg"
+      />
+      <img
+        alt="kabali"
+        className="still-item"
+        src="https://s3.ap-south-1.amazonaws.com/twspicinemas/stills/kabali.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;

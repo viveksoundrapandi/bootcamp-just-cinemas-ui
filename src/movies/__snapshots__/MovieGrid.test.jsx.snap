@@ -16,13 +16,15 @@ exports[`show movie list when fetching movies 1`] = `
 <div
   className="movie-list-container"
 >
-  <div
+  <a
     className="movie-item"
+    href="/movies/Kabali"
+    onClick={[Function]}
   >
     <img
       alt="Kabali"
       className="movie-thumbnail"
-      src="https://img.spicinemas.in/resources/images/movies/Kabali/150x207.jpg"
+      src="https://s3.ap-south-1.amazonaws.com/twspicinemas/poster/Kabali.jpg"
     />
     <h5
       className="name"
@@ -34,14 +36,16 @@ exports[`show movie list when fetching movies 1`] = `
     >
       RDX, Dolby Atmos, SUB
     </p>
-  </div>
-  <div
+  </a>
+  <a
     className="movie-item"
+    href="/movies/Sultan"
+    onClick={[Function]}
   >
     <img
       alt="Sultan"
       className="movie-thumbnail"
-      src="https://img.spicinemas.in/resources/images/movies/Sultan/150x207.jpg"
+      src="https://s3.ap-south-1.amazonaws.com/twspicinemas/poster/Sultan.jpg"
     />
     <h5
       className="name"
@@ -53,14 +57,16 @@ exports[`show movie list when fetching movies 1`] = `
     >
       RDX, Dolby Atmos, SUB
     </p>
-  </div>
-  <div
+  </a>
+  <a
     className="movie-item"
+    href="/movies/Sultan"
+    onClick={[Function]}
   >
     <img
       alt="Banjo"
       className="movie-thumbnail"
-      src="https://img.spicinemas.in/resources/images/movies/Sultan/150x207.jpg"
+      src="https://s3.ap-south-1.amazonaws.com/twspicinemas/poster/Sultan.jpg"
     />
     <h5
       className="name"
@@ -72,14 +78,16 @@ exports[`show movie list when fetching movies 1`] = `
     >
       RDX 3D
     </p>
-  </div>
-  <div
+  </a>
+  <a
     className="movie-item"
+    href="/movies/Suicide-Squad"
+    onClick={[Function]}
   >
     <img
       alt="Suicide Squad"
       className="movie-thumbnail"
-      src="https://img.spicinemas.in/resources/images/movies/Suicide-Squad/150x207.jpg"
+      src="https://s3.ap-south-1.amazonaws.com/twspicinemas/poster/Suicide-Squad.jpg"
     />
     <h5
       className="name"
@@ -91,14 +99,16 @@ exports[`show movie list when fetching movies 1`] = `
     >
       Dolby Atmos, RDX 3D, SUB
     </p>
-  </div>
-  <div
+  </a>
+  <a
     className="movie-item"
+    href="/movies/Namadhu"
+    onClick={[Function]}
   >
     <img
       alt="Namadhu"
       className="movie-thumbnail"
-      src="https://img.spicinemas.in/resources/images/movies/Namadhu/150x207.jpg"
+      src="https://s3.ap-south-1.amazonaws.com/twspicinemas/poster/Namadhu.jpg"
     />
     <h5
       className="name"
@@ -110,14 +120,16 @@ exports[`show movie list when fetching movies 1`] = `
     >
       RDX, SUB
     </p>
-  </div>
-  <div
+  </a>
+  <a
     className="movie-item"
+    href="/movies/Pelli0-Chupulu"
+    onClick={[Function]}
   >
     <img
       alt="Pelli Chupulu"
       className="movie-thumbnail"
-      src="https://img.spicinemas.in/resources/images/movies/Pelli0-Chupulu/150x207.jpg"
+      src="https://s3.ap-south-1.amazonaws.com/twspicinemas/poster/Pelli0-Chupulu.jpg"
     />
     <h5
       className="name"
@@ -129,14 +141,16 @@ exports[`show movie list when fetching movies 1`] = `
     >
       RDX, SUB
     </p>
-  </div>
-  <div
+  </a>
+  <a
     className="movie-item"
+    href="/movies/Pink"
+    onClick={[Function]}
   >
     <img
       alt="Pink"
       className="movie-thumbnail"
-      src="https://img.spicinemas.in/resources/images/movies/Pink/150x207.jpg"
+      src="https://s3.ap-south-1.amazonaws.com/twspicinemas/poster/Pink.jpg"
     />
     <h5
       className="name"
@@ -148,14 +162,16 @@ exports[`show movie list when fetching movies 1`] = `
     >
       RDX, SUB
     </p>
-  </div>
-  <div
+  </a>
+  <a
     className="movie-item"
+    href="/movies/Remo"
+    onClick={[Function]}
   >
     <img
       alt="Remo"
       className="movie-thumbnail"
-      src="https://img.spicinemas.in/resources/images/movies/Remo/150x207.jpg"
+      src="https://s3.ap-south-1.amazonaws.com/twspicinemas/poster/Remo.jpg"
     />
     <h5
       className="name"
@@ -167,14 +183,16 @@ exports[`show movie list when fetching movies 1`] = `
     >
       Dolby Atmos, RDX, SUB
     </p>
-  </div>
-  <div
+  </a>
+  <a
     className="movie-item"
+    href="/movies/Inferno"
+    onClick={[Function]}
   >
     <img
       alt="Inferno"
       className="movie-thumbnail"
-      src="https://img.spicinemas.in/resources/images/movies/Inferno/150x207.jpg"
+      src="https://s3.ap-south-1.amazonaws.com/twspicinemas/poster/Inferno.jpg"
     />
     <h5
       className="name"
@@ -186,6 +204,6 @@ exports[`show movie list when fetching movies 1`] = `
     >
       Dolby Atmos, RDX, SUB
     </p>
-  </div>
+  </a>
 </div>
 `;

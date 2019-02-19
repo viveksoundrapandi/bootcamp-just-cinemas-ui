@@ -1,0 +1,9 @@
+.banner {
+}
+
+.stills-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  margin-top: 2%;
+}

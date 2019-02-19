@@ -2,13 +2,18 @@ import React from "react";
 import renderer from "react-test-renderer";
 import MovieGrid from "./MovieGrid";
 import { movieItems } from "./mock-data";
+import { BrowserRouter as Router } from "react-router-dom";
 
 it("show display in progres when movie is been fetching", () => {
   const movies = {
     fetching: true
   };
   const tree = renderer
-    .create(<MovieGrid movies={movies} fetchMovies={() => {}} />)
+    .create(
+      <Router>
+        <MovieGrid movies={movies} fetchMovies={() => {}} />
+      </Router>
+    )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -19,7 +24,11 @@ it("show error when movie fetch has failed", () => {
     fetching: false
   };
   const tree = renderer
-    .create(<MovieGrid movies={movies} fetchMovies={() => {}} />)
+    .create(
+      <Router>
+        <MovieGrid movies={movies} fetchMovies={() => {}} />
+      </Router>
+    )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -32,7 +41,11 @@ it("show movie list when fetching movies", () => {
   };
 
   const tree = renderer
-    .create(<MovieGrid movies={movies} fetchMovies={() => {}} />)
+    .create(
+      <Router>
+        <MovieGrid movies={movies} fetchMovies={() => {}} />
+      </Router>
+    )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
