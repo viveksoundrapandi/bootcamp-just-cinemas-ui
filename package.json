@@ -27,6 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "lint": "eslint.js",
     "test_with_coverage": "CI=true react-scripts test --env=jsdom --coverage"
   },
   "devDependencies": {
